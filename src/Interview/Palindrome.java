@@ -15,7 +15,7 @@ public class Palindrome {
 		      int length = original.length();   
 		      for ( int i = length - 1; i >= 0; i-- ) 
 		         reverse = reverse + original.charAt(i);  
-		      if (original.equals(reverse)) 
+		      if (original.equalsIgnoreCase(reverse)) 
 		         System.out.println("Entered string/number is a palindrome.");
 		     
 		      else   
@@ -25,6 +25,11 @@ public class Palindrome {
 		 
 
 
+	}sIgnoreCase
+
+	private static Object ignorecase(String reverse) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	}

@@ -11,7 +11,7 @@ public class Palindromegrup {
 				System.out.println("Please write a word or a sentence");
 				String str=scan.nextLine();
 				String strLow=str.toLowerCase().replaceAll("[^A-Za-z0-9]","");
-				char reverse='a';
+				char reverse = 0;
 				char mainstr='c';
 				for( int i=strLow.length()-1; i>=0; i--) {
 					reverse=strLow.charAt(i);
