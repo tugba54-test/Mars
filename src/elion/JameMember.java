@@ -2,11 +2,11 @@ package elion;
 
 public class JameMember {
 	String firstName;
-	 static String lastname;
+	 String lastname;
 	int age;
 	
-	void memberFullName() {
-		System.out.println("Full name is "+firstName+" "+lastname);
+	void display() {
+		System.out.println("Full name is "+firstName+" "+lastname+" age is "+age);
 	}
 
 	public static void main(String[] args) {
@@ -22,8 +22,8 @@ public class JameMember {
 		obj1.age=28;
 		
 		
-		obj.memberFullName();
-		obj1.memberFullName();
+	
+	
 	}
 
 }
