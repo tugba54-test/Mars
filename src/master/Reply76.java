@@ -21,8 +21,7 @@ public class Reply76 {
       String[] day ;
 		for(int i=0;i<7;i++) {
 			System.out.println("please enter "+(i+1)+" day of the week");
-         day[]=input.Next();
-			
+			[]day=input.nextLine();
 			
 			
 		}

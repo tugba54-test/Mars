@@ -20,8 +20,8 @@ public class Replit94 {
 		    String browser = sc.nextLine(); 
 		    String message = null;
 		    for(int i=0; i<browser.length();i++);	
-		    	switch(browser.equals.charAt(browser)) {
-		    case "ChRome":
+		    	switch(browser) {
+		    case "Chrome":
 		    	message="Proceed with Chrome browser";		    	break;
 	    case "FireFox":
 		    	message="Proceed with Firefox browser";

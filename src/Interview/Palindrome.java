@@ -25,7 +25,7 @@ public class Palindrome {
 		 
 
 
-	}sIgnoreCase
+	}
 
 	private static Object ignorecase(String reverse) {
 		// TODO Auto-generated method stub

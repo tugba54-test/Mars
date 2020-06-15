@@ -7,7 +7,7 @@ class A{
 
 public int i;
 
-private int j;
+protected int j;
 
 }
 
